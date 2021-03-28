@@ -7,3 +7,4 @@ RUN unzip luxury.zip RUN cp -rvf luxury/* .
 RUN rm -rf luxury luxury.zip
 CMD [“/user/sbin/httpd”, “-D”, “FOREGROUND”]
 EXPOSE 80
+####
