@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <label>sender-user-id</label>
+  <input id="sender-user-id" disabled><br>
+  <label>recipient-user-id</label>
+  <input id="recipient-user-id" disabled>
+<div id="messages">
+</div>
+<span id="messageTyping"></span><br><br>
+<input type="text" id="message">
+<br><br>
+<a href="https://api.sajikthaba.com" target="_blank">Group Video Call</a>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="http://sajikthaba.com:5000/socket.io/socket.io.js/"></script>
+<script type="text/javascript">
+
+const getUrlParameter = name => {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.href);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, '    '));
+};
+
+let timer;
+const logged_id = getUrlParameter('sender-user-id');
+const user_id = getUrlParameter('recipient-user-id');
+$('#sender-user-id').val(logged_id);
+$('#recipient-user-id').val(user_id);
+let room_id;
+let message_type;
+
+var socket = io('http://sajikthaba.com:5000', {
+    reconnection: true,
+    reconnectionAttempts: 'Infinity',
+    timeout: 10000,
+    transports: ['websocket'],
+    query: {
+      logged_id: logged_id
+    }
+  });
+
+
+setTimeout(function() {
+  if(logged_id && user_id){
+    socket.emit('initPrivateMessage',{logged_id, user_id});
+  }
+}, 350);
+
+  socket.on('assignedRoomId', ({room, messages}) => { 
+    room_id = room._id;
+    message_type = room.type;
+    $('#messages').empty();
+    messages.map(item => $('#messages').append(`<p id="${item._id}">user_id ${item.user_id} - ${item.text} ${moment(item.createdAt).format("DD MMM YYYY ddd hh:mm A")}</p>`)); 
+  });
+
+  $('#message').on('keypress',function(e) {
+    if(e.which == 13) {
+      const text = e.target.value;
+      socket.emit('sendMessage',{room_id, message_type, text});
+      $('#'+e.target.id).val('').focus();
+    }
+  });
+
+  $('#message').on('keydown',function(e) {
+    if(e.which != 13) {
+      socket.emit('typing',{room_id});
+    }    
+  });
+
+  socket.on('typingresponse', ({user_id}) => {
+    if(logged_id != user_id)
+    {
+      $('#messageTyping').html(`user-id ${user_id} typing...`);
+      self.clearTimeout(timer);
+      timer = self.setTimeout(function () {
+        $('#messageTyping').empty();   
+      }, 1000) /* time frame 3 seconds */
+    }
+  });
+  
+
+
+  socket.on('newMessage', (res) => {
+      $('#messages').append(`<p id="${res._id}">user_id ${res.user_id} - ${res.text} ${moment(res.createdAt).format("DD MMM YYYY ddd hh:mm A")}</p>`);
+  });
+</script>
+   
