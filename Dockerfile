@@ -1,12 +1,10 @@
-FROM centos:latest
-MAINTAINER kubernetesproject98@gmail.com
-RUN yum install -y httpd \
-zip \
-unzip
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page258/loxury.zip /var/www/html/
-WORKDIR /var/www/html
-RUN unzip loxury.zip
-RUN cp -rvf loxury/* .
-RUN rm -rf loxury loxury.zip
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+FROM php:7.0-apache
+RUN apt-get update
+RUN apt-get install -y git
+RUN docker-php-ext-install pdo pdo_mysql mysqli
+RUN apt-get install -y libmcrypt-dev
+RUN docker-php-ext-install mcrypt
+RUN docker-php-ext-install calendar
+COPY  html /var/www/html
+
 EXPOSE 80
