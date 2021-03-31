@@ -1,9 +1,0 @@
-{
-    "name": "dojoko/web",
-    "description": "package for creation of dojoko",
-    "license": "private",
-    "require": {
-        "php": ">=5.4",
-        "twig/twig": "1.18.0"
-    }
-}

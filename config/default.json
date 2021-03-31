@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://game:welcome12@game.fqiii.mongodb.net/game?retryWrites=true&w=majority",
+    "jwtSecret": "secret",
+    "githubToken": "mysecretkey",
+    "githubClientId": "9093b6f06e81ee5c8626",
+    "githubSecret": "ae2bc0ea5fa97275ef83dc4461b5368b7261bdc0"
+  }
