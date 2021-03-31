@@ -30,10 +30,10 @@ define( 'DB_NAME', 'dojoko' );
 define( 'DB_USER', 'root' );
 
 // MySQL database password */
-define( 'DB_PASSWORD', 'mysql' );
+define( 'DB_PASSWORD', 'dojoko2021' );
 
 // MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'dojoko.ctyc1bpyhrca.ap-south-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
