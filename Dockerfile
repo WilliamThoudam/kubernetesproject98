@@ -27,6 +27,6 @@ RUN npm ci --only=production
 COPY . .
 #WORKDIR /usr/src/app
 
-EXPOSE 5000
+EXPOSE 80
 #CMD [ "NODE_ENV=production", "node", "server.js" ]
 CMD [ "node", "server.js" ]
