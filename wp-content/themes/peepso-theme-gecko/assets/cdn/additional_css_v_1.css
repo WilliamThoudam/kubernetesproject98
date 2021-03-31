@@ -5269,7 +5269,7 @@ textarea.ps-postbox__input.ps-textarea.ps-postbox-textarea.ps-tagging-textarea
 }
 div.ps-postbox__input-tag > .ps-postbox__input-beautifier
 {
-	/* z-index:2 !important; */
+	z-index:2 !important;
 
 }
 
@@ -6274,13 +6274,15 @@ select#profile_field_357 {
 
 
 input#form-field-field_628641d:before {
-    content: "+ Add files" !important;
-    position: absolute !important;
-    background: white;
-    width: 89px !important;
-    color: #FF4081 !important;
-    cursor: pointer;
-    font-size: 13px;
+  content: "+ Add files" !important;
+  position: absolute !important;
+  background: #e8e8e8;
+  width: 83px !important;
+  color: #FF4081 !important;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0px 5px;
+  border-radius: 9px;
 }
 
 

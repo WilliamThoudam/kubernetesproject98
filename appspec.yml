@@ -1,0 +1,24 @@
+### This file is used by codedeploy service
+### Sample appspec file for deploying wordpress
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/dojoko
+hooks:
+  BeforeInstall:
+    - location: scripts/setting_path.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: scripts/permissions.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 300
+      runas: root

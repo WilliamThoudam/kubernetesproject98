@@ -7,7 +7,7 @@
   body {
     font-family: 'Poppins';
     font-size: 13px;
-    color: #2c2c2c;
+    color: #242427;
     overflow-x: hidden;
   }
   body a {
@@ -247,25 +247,25 @@
     p {
         margin: 0px;
         font-size: inherit;
-        color: inherit;
+        color: #757575;
     }
   
     .cv_body_wrapper {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        display: flex;
+        
         text-align: left;
     }
   
     .cv_content_left {
-        flex: 2;
+        width: 70%;
         border-bottom-left-radius: 20px;
         padding: 15px;
         position: relative;
     }
   
     .cv_content_right {
-        flex: 1;
+        width: 30%;
         background-color: #f3f3f3;
         border-bottom-right-radius: 20px;
         padding: 15px;
@@ -345,7 +345,7 @@
     }
   
     .cv_list {
-        font-size: 11px;
+        font-size: 12px;
         color: #929292;
     }
   
@@ -367,8 +367,8 @@
     }
 
     .cv_list_head {
-        font-size: 12px;
-        color: #535353;
+        font-size: 13px;
+        color: #818181;
     }
   
     .cv_content_left_footer {
@@ -840,14 +840,14 @@
   /*! Firefox */    
   .cus_input_wrapper{
     scrollbar-color: #dcdbdb transparent;
-    scrollbar-track:20px;
+    scrollbar-track:7px;
   }
   
   /*! Other Browser */
   .cus_input_wrapper {
     --scrollbarBG: #dcdbdb;
     --thumbBG: transparent;
-    
+    padding-right: 3px;
   }
 
 
@@ -884,7 +884,7 @@
   /*! Firefox */    
   #content{
     scrollbar-color: #dcdbdb transparent;
-    scrollbar-track:20px;
+    scrollbar-track:7px;
   }
   
   /*! Other Browser */
@@ -1062,7 +1062,7 @@
   }
   
   .MuiTypography-body1 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 1.5;
   }
@@ -1740,14 +1740,17 @@ ul.fixed-bottom-menu
   #content
   {
     border-radius: 20px;
+    /* padding-right: 19px; */
   }
 
   #content:hover
   {
     overflow-y: auto !important;
-    position: absolute;
-box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-  }
+    /* position: absolute; */
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    /* padding-right: 9px !important; */
+    width: 100%;
+}
 
   .dark_cv_heading {
     background-color: #000000 !important;
@@ -1849,7 +1852,7 @@ div.dark_cus_chip_div > span.chip:hover
 }
 
 .MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock {
-  color: #535353 !important;
+  color: #757575 !important;
 }
 
 .dark_popup
@@ -1888,28 +1891,37 @@ div.dark_cus_chip_div > span.chip:hover
 
 input.dark_input_text, select.dark_input_select, textarea.dark_input_textarea {
   background: #242427 !important;
-  color: #818181 !important;
+  color: #c1c1c1 !important;
 }
 
 .form-control::placeholder
 {
-  color: #404040 !important;
+  color: lightgray ;
 }
 
-input#form-field-email {
+input.dark_input_text::placeholder, select.dark_input_select::placeholder, textarea.dark_input_textarea::placeholder
+{
+  color: #484848 !important;
+}
+
+.form-control, .custom-select
+{
+  color: #242427 ;
+}
+
+input#form-field-email , input#form-field-dob {
   background-color: rgba(204, 204, 204, 0.32) !important;
 }
 
 .multisteps-form__content:hover > .cus_input_wrapper 
 {
- 
       overflow-y: auto;
-     padding-right: 1px; 
+     padding-right: 15px; 
 }
 
 .multisteps-form__content:hover 
 {
-  padding-right: 0px !important;
+  padding-right: 4px !important;
 }
 
 .js-btn-prev, .js-btn-next , .add_more_btn {
@@ -1935,4 +1947,17 @@ input#form-field-email {
 
 .cus_input_inside {
   min-height: 60vh;
+}
+
+.ql-editor p, .ql-editor ol, .ql-editor ul, .ql-editor pre, .ql-editor blockquote, .ql-editor h1, .ql-editor h2, .ql-editor h3, .ql-editor h4, .ql-editor h5, .ql-editor h6 {
+  margin: 0;
+  padding: 0;
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  color: #757575 !important;
+}
+
+.ql-editor
+{
+  color: #757575;
+  font-size: 12px !important;
 }

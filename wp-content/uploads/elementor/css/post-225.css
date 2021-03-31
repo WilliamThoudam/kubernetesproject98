@@ -13271,3 +13271,7 @@ a.ps-btn:hover {
     color: #ffffff;
     background-color: #00acc1;
 }
+
+#recoverpasswordform > p {
+    text-align: center;
+}

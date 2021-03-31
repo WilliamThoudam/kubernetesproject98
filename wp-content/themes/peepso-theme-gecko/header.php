@@ -207,5 +207,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        echo "<input type='hidden' value= '" . get_current_user_id() ."' id='cus_userid'></input>";
        echo "<input type='hidden' value= '" . $current_user->user_login ."' id='cus_current_username'></input>";
      }
-     echo "Test";
        ?>

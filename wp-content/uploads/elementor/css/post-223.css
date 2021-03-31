@@ -6613,3 +6613,7 @@
                 font-size: 12px;
                 color: #8a8888 !important;
             }
+
+            .ps-page--register > p {
+                text-align: center;
+            }
