@@ -1,0 +1,27 @@
+# Added to allow api access
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# BEGIN WP Hide & Security Enhancer
+
+# END WP Hide & Security Enhancer
+# BEGIN CUSTOM PHP SETTINGS
+php_value upload_max_filesize 64M
+# END CUSTOM PHP SETTINGS
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+#Block Indexing
+Options -Indexes

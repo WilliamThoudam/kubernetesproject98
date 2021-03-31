@@ -1,0 +1,77 @@
+.wbpwpforoi-peepo-wpforo-wrapper #wpforo-menu,
+.wbpwpforoi-peepo-wpforo-wrapper .wpf-breadcrumb,
+.wbpwpforoi-peepo-wpforo-wrapper .wpforo-profile-head-wrap {
+    display: none!important;
+}
+.wbpwpforoi-peepo-wpforo-wrapper #wpforo-footer {
+    display: none!important;
+}
+
+/* PeepSo WPForo */
+#wpforo-wrap .wpforo-profile-account .wpf-field-type-avatar li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.peepso #wpforo-wrap .wpf-field-type-checkbox [type="checkbox"]:not(:checked),
+.peepso #wpforo-wrap .wpf-field-type-checkbox [type="checkbox"]:checked {
+    opacity: 1;
+}
+
+.peepso #wpforo-wrap .wpf-field-type-checkbox .wpf-field-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+#wpforo-wrap .wpf-field select {
+    height: 30px;
+}
+
+#wpforo-wrap .wpf-field .wpf-label {
+    padding: 0 3px 5px;
+}
+
+#wpforo-wrap .wpf-sbtn.wpf-sb-style-grey .wpf-sb-button.wpf-sb-icon {
+    border: 1px solid #bbbbbb !important;
+}
+
+@media screen and (max-width: 800px) {
+    #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(2),
+    #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(3),
+    #wpforo-wrap .wpforo-profile-account .wpf-field-type-avatar input[type="url"] {
+        width: 100%;
+    }
+
+    #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(2) .wpf-field,
+    #wpforo-wrap .wpforo-profile-account .wpfw-3:nth-child(3) .wpf-field {
+        text-align: left;
+    }
+}
+
+.peepso .peepso-wp-subscriptions [type=checkbox] {
+    position: relative;
+    z-index: 1;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.peepso .peepso-wp-subscriptions .wpf-sbs-checkbox [type=checkbox] {
+    margin-top: 4px !important;
+}
+
+.peepso .peepso-wp-subscriptions [type=checkbox]:not(:checked),
+.peepso .peepso-wp-subscriptions [type=checkbox]:checked {
+    opacity: 1;
+}
+
+
+.peepso .peepso-wp-subscriptions [type=checkbox]+label:before,
+.peepso .peepso-wp-subscriptions [type=checkbox]+label:after,
+.peepso .peepso-wp-subscriptions [type=radio]+label:before,
+.peepso .peepso-wp-subscriptions [type=radio]+label:after {
+    content: none;
+}

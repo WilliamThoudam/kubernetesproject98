@@ -1,0 +1,80 @@
+.ps-landing {
+  --radius: var(--BORDER-RADIUS--XL);
+
+  margin-bottom: var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-lading__inner {}
+
+.ps-landing__cover {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  + .ps-landing__form {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.ps-landing__cover-inner {
+  margin-top: 20%;
+  padding: var(--PADD--MD);
+  background-color: rgba(0,0,0, .5);
+
+  @include mq($from: desktop) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ps-landing__content {
+  flex-grow: 2;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0, .5);
+
+  @include mq($from: desktop) {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.ps-landing__title {
+  margin-bottom: var(--PADD--SM);
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.ps-landing__text {
+  font-size: 100%;
+}
+
+.ps-landing__actions {
+  .ps-btn--join {
+    white-space: nowrap;
+  }
+
+  @include mq($until: desktop) {
+    margin-top: var(--PADD);
+
+    .ps-btn--join {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.ps-landing__form {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--radius);
+}

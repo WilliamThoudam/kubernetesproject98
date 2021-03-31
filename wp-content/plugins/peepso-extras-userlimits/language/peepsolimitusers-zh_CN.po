@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-10-22 16:57+0700\n"
+"PO-Revision-Date: 2020-10-27 01:22\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: limitusers.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Project-ID: 121989\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: peepsolimitusers.pot\n"
+"X-Crowdin-File-ID: 19\n"
+"Language: zh_CN\n"
+
+#: classes/configsectionlimitusers.php:41
+msgid "Hide Users From Listings"
+msgstr "从列表中隐藏用户"
+
+#: classes/configsectionlimitusers.php:42
+msgid "Selected users will not show in any PeepSo user listing.<br/>Administrators will always see everyone."
+msgstr "选定的用户不会显示在任何PeepSo用户列表中。<br/>管理员将始终看到所有用户。"
+
+#: classes/configsectionlimitusers.php:49
+msgid "Disable new posts"
+msgstr "禁用新帖子"
+
+#: classes/configsectionlimitusers.php:50
+msgid "Selected users will not be able to create any new posts.<br/>That includes posting in groups."
+msgstr "选定的用户将无法创建任何新的帖子。<br/>包括在组中发布。"
+
+#: classes/configsectionlimitusers.php:57
+msgid "Disable RePost"
+msgstr "禁用转发"
+
+#: classes/configsectionlimitusers.php:58
+msgid "Selected users will not be able to RePost (share) any posts."
+msgstr "选定的用户将无法转发（共享）任何帖子。"
+
+#: classes/configsectionlimitusers.php:65
+msgid "Disable comments"
+msgstr "禁用评论"
+
+#: classes/configsectionlimitusers.php:66
+msgid "Selected users will not be able to add any comments.<br/>That includes commenting in groups."
+msgstr "选定的用户将无法添加任何评论。<br/>包括在组中评论。"
+
+#: classes/configsectionlimitusers.php:72
+msgid "Disable reactions"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:73
+msgid "Selected users will not be able to add any reactions.<br/>That includes in groups."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:84
+msgid "Friends - disable sending friend requests"
+msgstr "朋友 - 禁用发送好友请求"
+
+#: classes/configsectionlimitusers.php:85
+msgid "Selected users will not be able to send friend requests.<br/>They can receive and accept friend requests."
+msgstr "选定的用户将无法发送好友请求。<br/>他们可以接收和接受好友请求。"
+
+#: classes/configsectionlimitusers.php:93
+msgid "Groups - disable group join"
+msgstr "组 - 禁用组加入"
+
+#: classes/configsectionlimitusers.php:94
+msgid "Selected Users will be unable to join groups or be invited .<br/>They can still access / manage groups created earlier."
+msgstr "选定的用户将无法加入组或被邀请。<br/>他们仍然可以访问/管理之前创建的组。"
+
+#: classes/configsectionlimitusers.php:102
+msgid "Groups - disable group creation"
+msgstr "组 - 禁用组创建"
+
+#: classes/configsectionlimitusers.php:103
+msgid "Selected Users will be unable to create groups.<br/>They can still manage groups created earlier."
+msgstr "选定的用户将无法创建组。<br/>他们仍然可以管理先前创建的组。"
+
+#: classes/configsectionlimitusers.php:111
+msgid "Chat - disable starting new threads"
+msgstr "聊天 - 禁用启动新线程"
+
+#: classes/configsectionlimitusers.php:112
+msgid "Selected users will not be able to create new message threads.<br/>They can still participate in existing threads."
+msgstr "选定的用户将无法创建新的消息线程。<br/>他们仍可以参与现有线程。"
+
+#: classes/configsectionlimitusers.php:120
+msgid "Photos - disable photo uploads"
+msgstr "照片 - 禁用照片上传"
+
+#: classes/configsectionlimitusers.php:121
+msgid "Selected users will not be able to upload photos in posts and comments and create albums.<br/>They can change their avatar and cover."
+msgstr "选定的用户将无法在帖子和评论中上传照片和创建相册。<br/>他们可以更改头像和封面。"
+
+#: classes/configsectionlimitusers.php:129
+msgid "Polls - disable new polls"
+msgstr "投票调查 - 禁用新投票调查"
+
+#: classes/configsectionlimitusers.php:130
+msgid "Selected users will not be able to create new polls.<br/>They can vote."
+msgstr "选定的用户将无法创建新的投票调查。<br/>他们可以投票。"
+
+#: classes/configsectionlimitusers.php:138
+msgid "Videos - disable videos"
+msgstr "视频 - 禁用视频"
+
+#: classes/configsectionlimitusers.php:139
+msgid "Selected users will not be able to embed / upload videos in their posts.<br/>They can post video links."
+msgstr "选定的用户将无法在其帖子中嵌入/上传视频。<br/>他们可以发布视频链接。"
+
+#: classes/configsectionlimitusers.php:148
+msgid "When enabled, the e-mails on the Black list will be marked as invalid. E-mail validation is checked before domain validation.\n"
+"        "
+msgstr "启用后，黑名单上的电子邮箱将标记为无效。在域验证之前要先检查电子邮件验证。\n"
+"        "
+
+#: classes/configsectionlimitusers.php:152
+msgid "Block selected domains"
+msgstr "阻止选定的域"
+
+#: classes/configsectionlimitusers.php:159
+#: classes/configsectionlimitusers.php:177
+msgid "One per line."
+msgstr "每行一个。"
+
+#: classes/configsectionlimitusers.php:162
+msgid "Blocked domains"
+msgstr "阻止的域"
+
+#: classes/configsectionlimitusers.php:167
+msgid "When enabled, domains on the White list will NOT be blocked. E-mails coming from other domains will be rejected."
+msgstr "启用后，白名单上的域将不会被阻止。来自其他域的电子邮件将被拒绝。"
+
+#: classes/configsectionlimitusers.php:170
+msgid "Allow only selected domains"
+msgstr "只允许选定的域"
+
+#: classes/configsectionlimitusers.php:180
+msgid "Allowed domains"
+msgstr "允许的域"
+
+#: classes/configsectionlimitusers.php:187
+msgid "Allow / Disallow Registrations From Certain Email Domains"
+msgstr "允许/不允许来自特定电子邮件域的注册"
+
+#: classes/configsectionlimitusers.php:207
+msgid "Administrator can't be limited"
+msgstr "管理员不能被限制"
+
+#: classes/configsectionlimitusers.php:220
+msgid "Based on profile completeness"
+msgstr "基于个人资料完整性"
+
+#: classes/configsectionlimitusers.php:230
+msgid "-- no limit --"
+msgstr "--无限制--"
+
+#: classes/configsectionlimitusers.php:236
+msgid "Require"
+msgstr "需要"
+
+#: classes/configsectionlimitusers.php:242
+msgid "Based on avatar"
+msgstr "基于头像"
+
+#: classes/configsectionlimitusers.php:254
+msgid "Based on cover"
+msgstr "基于封面"
+
+#: classes/widgets/widgetlimitusers.php:9
+msgid "PeepSo User Limits"
+msgstr "PeepSo用户限制"
+
+#: classes/widgets/widgetlimitusers.php:10
+msgid "PeepSo User Limits Widget"
+msgstr "PeepSo用户限制小部件"
+
+#: classes/widgets/widgetlimitusers.php:65
+msgid "Your actions in the Community are limited."
+msgstr "您在社区中的操作是受限制的。"
+
+#: classes/widgets/widgetlimitusers.php:83
+msgid "Message:"
+msgstr "消息："
+
+#: limitusers.php:161
+msgid "show on members page"
+msgstr "在成员页上显示"
+
+#: limitusers.php:162
+msgid "add new posts"
+msgstr "添加新帖子"
+
+#: limitusers.php:163
+msgid "repost"
+msgstr "转发"
+
+#: limitusers.php:164
+msgid "comment on posts"
+msgstr "评论帖子"
+
+#: limitusers.php:165
+msgid "react on posts and comments"
+msgstr ""
+
+#: limitusers.php:178
+msgid "send friend requests"
+msgstr "发送好友请求"
+
+#: limitusers.php:184
+msgid "join groups"
+msgstr "加入组"
+
+#: limitusers.php:188
+msgid "create groups"
+msgstr "创建组"
+
+#: limitusers.php:194
+msgid "write new messages"
+msgstr "写新消息"
+
+#: limitusers.php:200
+msgid "add photos"
+msgstr "添加照片"
+
+#: limitusers.php:206
+msgid "add polls"
+msgstr "添加投票调查"
+
+#: limitusers.php:212
+msgid "add videos"
+msgstr "添加视频"
+
+#: limitusers.php:432
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s插件需要安装并激活PeepSo插件。"
+
+#: limitusers.php:434
+msgid "Get it now!"
+msgstr "立即获取！"
+
+#: limitusers.php:481
+msgid "User Limits"
+msgstr "用户限制"
+
+#: limitusers.php:484
+msgid "Configure which users to hide from the listings"
+msgstr "配置要从列表中隐藏的用户"
+
+#: limitusers.php:575
+msgid "You are currently not allowed to create new posts"
+msgstr "当前不允许您创建新帖子"
+
+#: limitusers.php:601
+msgid "You are currently not allowed to create new comments"
+msgstr "当前不允许您创建新评论"
+
+#: templates/limitusers/debug-formatted.php:11
+msgid "Upload an avatar to:"
+msgstr "上传一个头像至："
+
+#: templates/limitusers/debug-formatted.php:22
+msgid "Upload a cover to:"
+msgstr "上传一个封面至："
+
+#: templates/limitusers/debug-formatted.php:36
+msgid "Complete your profile to at least:"
+msgstr "请将您的个人资料填写到至少："
+
+#: templates/limitusers/debug-formatted.php:40
+msgid "to"
+msgstr "到"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: User Limits"
+msgstr "PeepSo附加功能：用户限制"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Limit user privileges and/or hide them from PeepSo user listings based on role and profile completeness"
+msgstr "根据角色和个人资料完整度，限制用户权限和/或从PeepSo用户列表中隐藏他们"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

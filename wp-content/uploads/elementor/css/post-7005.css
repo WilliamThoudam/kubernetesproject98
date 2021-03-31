@@ -1,0 +1,106 @@
+:root{--page-title-display:none;}/* Start custom CSS for html, class: .elementor-element-b68aefb */div.cus_member_body > div.ps-member__buttons > a
+{
+    border: 1px solid #00acc1 !important;
+    border-radius: 20px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    padding: 8px 15px !important;
+}
+
+div.cus_member_body > div.ps-member__buttons > a:hover
+{
+    background-color: #00acc1;
+    color: #ffffff;
+}
+
+.cus_ps_member_action_desc
+{
+    font-size: 12px !important;
+    color: #9c9c9c !important;
+    padding: 5px;
+}
+.cus_ps_member_header
+{
+    padding-bottom: 0px !important;
+}
+.cus_ps_member_name
+{
+    margin-top: 7px;
+}
+
+.cus_common_interest_btn
+{
+    font-size: 12px;
+    color: #FF4081;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.cus_common_interest_btn:hover
+{
+    color: #FF4081;
+}
+.cus_ps_dropdown_togle
+{
+    cursor: pointer;
+}
+
+.ps-member__option .cus_ps_dropdown_togle:hover, .ps-member__option .cus_ps_dropdown_togle:focus
+{
+    color: #FF4081 !important;
+}
+
+.cus_common_item_wrapper
+{
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.cus_common_item
+{
+    background-color: rgb(229, 247, 249);
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 11px;
+    color: #00acc1;
+    margin: 3px 1px;
+    display: inline-block
+}
+
+.cus_common_item_header
+{
+    margin: 5px 0px;
+    margin-top: 10px;
+}
+
+.cus_common_header_title
+{
+    text-align: center;
+    font-weight: 300;
+}
+.cus_common_header_title > span
+{
+    
+    font-size: 16px;
+}
+
+.cus_common_item_count
+{
+    color: #FF4081;
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+.cus_common_item_section
+{
+    margin-bottom: 15px;
+}
+
+.cus_common_header_title > span > span 
+{
+	font-size:16px;
+}
+.ps-member__name a
+{
+	text-transform:capitalize;
+}/* End custom CSS */

@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"peepso-theme-gecko","mapped_name":""},"allowed_paths":["\/Applications\/AMPPS\/www\/wp-content\/themes"],"cache_path":"\/Applications\/AMPPS\/www\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>

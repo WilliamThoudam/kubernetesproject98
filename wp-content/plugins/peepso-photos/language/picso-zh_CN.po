@@ -1,0 +1,852 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-10-22 16:54+0700\n"
+"PO-Revision-Date: 2020-10-27 01:22\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsosharephotos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Project-ID: 121989\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: picso.pot\n"
+"X-Crowdin-File-ID: 6\n"
+"Language: zh_CN\n"
+
+#: classes/configsectionphotos.php:27
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "WordPress允许的最大上传大小为%1$sMB。WordPress设置优先于PeepSo。如果您想允许更大的文件上传，请查看WrodPress和/或您的服务器配置。"
+
+#: classes/configsectionphotos.php:30 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "最大上传大小（MB）"
+
+#: classes/configsectionphotos.php:37
+msgid "Set 0 for Unlimited"
+msgstr "将0设为无限制"
+
+#: classes/configsectionphotos.php:40 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "每个用户允许的空间（以兆字节为单位）"
+
+#: classes/configsectionphotos.php:45 classes/configsectionphotos.php:62
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "无限"
+
+#: classes/configsectionphotos.php:46 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:47 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:48 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:49 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:56 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "每个用户的照片数量上限"
+
+#: classes/configsectionphotos.php:63 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:64 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:65 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:66 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:73 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "每位用户的每日照片上传限制"
+
+#: classes/configsectionphotos.php:78 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "使用原始"
+
+#: classes/configsectionphotos.php:79 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "重新调整大小"
+
+#: classes/configsectionphotos.php:86 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "照片上传行为"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "最大图像宽度"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "最大图像高度"
+
+#: classes/configsectionphotos.php:113 classes/configsectionphotos.php:131
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "推荐的"
+
+#: classes/configsectionphotos.php:119 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "画面质量"
+
+#: classes/configsectionphotos.php:137 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "缩略图质量"
+
+#: classes/configsectionphotos.php:143
+msgid "General"
+msgstr "一般"
+
+#: classes/configsectionphotos.php:151 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "启用AWS S3存储"
+
+#: classes/configsectionphotos.php:155 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "您注册AWS时收到的访问密钥ID（20个字符）"
+
+#: classes/configsectionphotos.php:157 classes/photosadmin.php:200
+msgid "Amazon Access Key ID is required"
+msgstr "Amazon访问密钥ID是必需的"
+
+#: classes/configsectionphotos.php:161 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "亚马逊访问密钥ID"
+
+#: classes/configsectionphotos.php:166 classes/photosadmin.php:215
+msgid "Amazon Secret Access Key is required"
+msgstr "需要Amazon Secret Access Key"
+
+#: classes/configsectionphotos.php:169 classes/photosadmin.php:209
+msgid "Amazon Secret Access Key"
+msgstr "Amazon Secret Access密钥"
+
+#: classes/configsectionphotos.php:173 classes/photosadmin.php:225
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "将图像上传到Amazon S3的存储桶的名称"
+
+#: classes/configsectionphotos.php:175 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket is required"
+msgstr "需要Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:178 classes/photosadmin.php:224
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3存储桶"
+
+#: classes/configsectionphotos.php:183
+msgid "Asia Pacific (Mumbai)"
+msgstr "亚太地区（孟买）"
+
+#: classes/configsectionphotos.php:184
+msgid "Asia Pacific (Seoul)"
+msgstr "亚太地区（首尔）"
+
+#: classes/configsectionphotos.php:185
+msgid "Asia Pacific (Singapore)"
+msgstr "亚太地区（新加坡）"
+
+#: classes/configsectionphotos.php:186
+msgid "Asia Pacific (Sydney)"
+msgstr "亚太地区（悉尼）"
+
+#: classes/configsectionphotos.php:187
+msgid "Asia Pacific (Tokyo)"
+msgstr "亚太地区（东京）"
+
+#: classes/configsectionphotos.php:188
+msgid "Canada (Central)"
+msgstr "加拿大（中部）"
+
+#: classes/configsectionphotos.php:189
+msgid "EU (Frankfurt)"
+msgstr "欧盟（法兰克福）"
+
+#: classes/configsectionphotos.php:190
+msgid "EU (Ireland)"
+msgstr "欧盟（爱尔兰）"
+
+#: classes/configsectionphotos.php:191
+msgid "EU (London)"
+msgstr "欧盟（伦敦）"
+
+#: classes/configsectionphotos.php:192
+msgid "EU (Paris)"
+msgstr "欧盟（巴黎）"
+
+#: classes/configsectionphotos.php:193
+msgid "South America (São Paulo)"
+msgstr "南美洲（圣保罗）"
+
+#: classes/configsectionphotos.php:194
+msgid "US East (N. Virginia)"
+msgstr "美国东部（弗吉尼亚州北部）"
+
+#: classes/configsectionphotos.php:195
+msgid "US East (Ohio)"
+msgstr "美国东部（俄亥俄州）"
+
+#: classes/configsectionphotos.php:196
+msgid "US West (N. California)"
+msgstr "美国西部（北加利福尼亚）"
+
+#: classes/configsectionphotos.php:197
+msgid "US West (Oregon)"
+msgstr "美国西部（俄勒冈州）"
+
+#: classes/configsectionphotos.php:203
+msgid "Bucket location"
+msgstr "bucket位置"
+
+#: classes/configsectionphotos.php:207
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "禁用AWS S3会导致照片消失，因为照片不会被重新下载"
+
+#: classes/configsectionphotos.php:210
+msgid "Don't keep a local copy of uploaded files"
+msgstr "不保留上传文件的本地副本"
+
+#: classes/configsectionphotos.php:220 classes/photosadmin.php:243
+msgid "AWS Error History:"
+msgstr "AWS错误历史记录："
+
+#: classes/configsectionphotos.php:230 classes/photosadmin.php:258
+#, php-format
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "要启用AWS的使用，请将“启用AWS S3存储”设置为“YES”，然后填写其他设置字段。为了获取您的AWS访问ID和密钥，您可以在此处注册：%sGet您的AWS访问键%s。"
+
+#: classes/configsectionphotos.php:242
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/photosadmin.php:45
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "WordPress允许的最大上传大小为%1$sMB"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "打开使用Amazon AWS进行映像存储"
+
+#: classes/photosadmin.php:210
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "您注册AWS时收到的AWS密钥（40个字符）"
+
+#: classes/photosadmin.php:254
+msgid "Photos Settings"
+msgstr "照片设置"
+
+#: classes/photosadmin.php:257
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "配置使用PeepSo共享照片。"
+
+#: classes/photosadmin.php:284
+#, php-format
+msgid "Photo of post %s"
+msgstr "照片post%s"
+
+#: classes/photosadmin.php:293
+#, php-format
+msgid "Photo %1$d of post %2$s"
+msgstr "照片的%1$d条信息%2$s"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "已达到文件上传配额上限。删除带有照片的信息，以释放一些空间"
+
+#: classes/photosajax.php:117
+#, php-format
+msgid "Only files up to %1$dMB are allowed"
+msgstr "只允许最多%1$dMB的文件"
+
+#: classes/photosajax.php:157
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "只允许最大为%1$d像素宽的照片，请调整大小。"
+
+#: classes/photosajax.php:159
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "只能使用最大为%1$d像素高度的照片，请调整大小。"
+
+#: classes/photosajax.php:163
+#, php-format
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "图片超过了%1$d x %2$d的最大照片大小。"
+
+#: classes/photosajax.php:253
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "已达到每日最大照片上传配额。删除带有照片的信息，以释放一些空间。"
+
+#: classes/photosajax.php:257
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "已达到最大照片上传配额。删除带有照片的信息，以释放一些空间。"
+
+#: classes/photosajax.php:259
+#, php-format
+msgid "Only files up to %1$dMB are allowed."
+msgstr "只允许最多%1$dMB的文件。"
+
+#: classes/photosajax.php:261
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "已达到文件上传配额上限。删除带有照片的信息，以释放一些空间。"
+
+#: classes/photosajax.php:317
+msgid "You don't have any photos yet"
+msgstr "您还没有照片"
+
+#: classes/photosajax.php:317
+#, php-format
+msgid "%s doesn't have any photos yet"
+msgstr "%s还没有照片"
+
+#: classes/photosajax.php:441 classes/photosajax.php:494
+#: classes/photosajax.php:544 classes/photosajax.php:614
+#: classes/photosajax.php:662 classes/photosajax.php:737
+#: classes/photosajax.php:765 classes/photosajax.php:816
+#: classes/photosajax.php:848 classes/photosajax.php:933
+msgid "Request could not be verified."
+msgstr "无法验证请求。"
+
+#: classes/photosajax.php:470
+msgid "Your avatar has been changed."
+msgstr "您的头像已更改。"
+
+#: classes/photosajax.php:475
+msgid "You are not authorized to use this photo as avatar."
+msgstr "您无权将此照片用作头像。"
+
+#: classes/photosajax.php:481 classes/photosajax.php:531
+#: classes/photosajax.php:600 classes/photosajax.php:724
+msgid "Photo not found"
+msgstr "找不到照片"
+
+#: classes/photosajax.php:520
+msgid "Your profile cover has been changed."
+msgstr "您的个人资料封面已更改。"
+
+#: classes/photosajax.php:525
+msgid "You are not authorized to use this photo as cover."
+msgstr "您无权使用这张照片作为封面。"
+
+#: classes/photosajax.php:589
+msgid "Album "
+msgstr "相册"
+
+#: classes/photosajax.php:594
+msgid "You are not authorized to create album for this user."
+msgstr "您无权为此用户创建相册。"
+
+#: classes/photosajax.php:650 classes/photosajax.php:753
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "临时文件已被删除"
+
+#: classes/photosajax.php:709
+msgid "New photos added"
+msgstr "已新增照片"
+
+#: classes/photosajax.php:712
+msgid "Activity is not found."
+msgstr "找不到活动。"
+
+#: classes/photosajax.php:718
+msgid "You are not authorized to add photos."
+msgstr "您没有添加照片的权限。"
+
+#: classes/photosajax.php:798
+msgid "Photo Album has been deleted."
+msgstr "相册已删除。"
+
+#: classes/photosajax.php:803 classes/photosajax.php:835
+msgid "You are not authorized to change this album name."
+msgstr "您无权更改此相册名称。"
+
+#: classes/photosajax.php:830
+msgid "Photo Album name saved."
+msgstr "已保存照片相册名称。"
+
+#: classes/photosajax.php:885
+msgid "Photo Album description saved."
+msgstr "相册说明已保存。"
+
+#: classes/photosajax.php:890
+msgid "You are not authorized to change this album description."
+msgstr "您无权更改此相册说明。"
+
+#: classes/photosajax.php:919
+msgid "Invalid extra field."
+msgstr "额外栏位无效。"
+
+#: classes/photosajax.php:947
+msgid "Photo Album access changed."
+msgstr "相册访问权限已更改。"
+
+#: classes/photosajax.php:952
+msgid "You are not authorized to change this album access."
+msgstr "您无权更改此相册的访问权限。"
+
+#: classes/photosajax.php:992
+msgid "You do not have permission to do that."
+msgstr "您没有这样做的权限。"
+
+#: classes/photosmodel.php:507
+msgid "Missing Amazon configuration."
+msgstr "缺少Amazon配置。"
+
+#: classes/photosmodel.php:580
+msgid "There was a problem when uploading the file"
+msgstr "上传文件时出现问题"
+
+#: classes/photosmodel.php:603
+msgid "There was an error setting up Amazon S3 library."
+msgstr "设置Amazon S3库时出错。"
+
+#: classes/photosmodel.php:623
+msgid "There was a problem when deleting the file"
+msgstr "删除文件时出现问题"
+
+#: classes/photosmodel.php:629
+#, php-format
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "删除文件%1$s时出错。出错：%2$s"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo社区照片"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "最新照片"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:384
+msgid "PeepSo Photos"
+msgstr "PeepSo照片"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo照片小部件"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "我的照片"
+
+#: peepsosharephotos.php:269
+msgid "Profile Avatars"
+msgstr "个人资料头像"
+
+#: peepsosharephotos.php:273
+msgid "Profile Covers"
+msgstr "配置文件封面"
+
+#: peepsosharephotos.php:277
+msgid "Stream Photos"
+msgstr "流照片"
+
+#: peepsosharephotos.php:362
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s插件需要安装并激活PeepSo插件。"
+
+#: peepsosharephotos.php:364
+msgid "Get it now!"
+msgstr "立即获取！"
+
+#: peepsosharephotos.php:381 peepsosharephotos.php:513
+#: peepsosharephotos.php:1311 peepsosharephotos.php:1343
+#: peepsosharephotos.php:1354 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "照片"
+
+#: peepsosharephotos.php:434 peepsosharephotos.php:1383
+msgid "Upload Failed! Please try again."
+msgstr "上传失败！请再试一次。"
+
+#: peepsosharephotos.php:459
+msgid "Only "
+msgstr "只要"
+
+#: peepsosharephotos.php:460 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, and png."
+msgstr "支持的格式有：gif，jpg，jpeg，tiff和png。"
+
+#: peepsosharephotos.php:596
+msgid "Photo"
+msgstr "照片"
+
+#: peepsosharephotos.php:702
+msgid " uploaded a new avatar"
+msgstr " 上传了一个新的头像"
+
+#: peepsosharephotos.php:705
+msgid " uploaded a new profile cover"
+msgstr " 上传了新的个人资料封面"
+
+#: peepsosharephotos.php:723
+#, php-format
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " 添加 %1$d 图片到相册: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:728
+#, php-format
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] " 上传%1$d图片"
+
+#: peepsosharephotos.php:736
+msgid " shared photos"
+msgstr " 共享照片"
+
+#: peepsosharephotos.php:1180
+msgid "album"
+msgstr "相册"
+
+#: peepsosharephotos.php:1192 peepsosharephotos.php:1215
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "照片"
+
+#: peepsosharephotos.php:1200
+msgid "avatar"
+msgstr "头像"
+
+#: peepsosharephotos.php:1205
+msgid "cover photo"
+msgstr "封面照片"
+
+#: peepsosharephotos.php:1586
+msgid "Delete Album"
+msgstr "删除相册"
+
+#: peepsosharephotos.php:1805
+msgid "Upload photos"
+msgstr "上传照片"
+
+#: peepsosharephotos.php:2094
+msgid "Enable post updates upon user avatar change"
+msgstr "在用户头像更改后启用帖子更新"
+
+#: peepsosharephotos.php:2095
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "当用户更改个人资料头像时，在活动流上发布更新。"
+
+#: peepsosharephotos.php:2102
+msgid "Enable post updates upon user cover change"
+msgstr "在用户更改封面时启用帖子更新"
+
+#: peepsosharephotos.php:2103
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "当用户更改个人资料封面时在活动流上发布更新。"
+
+#: peepsosharephotos.php:2119
+msgid "Enable post updates upon groups avatar change"
+msgstr "在群组头像更改时启用帖子更新"
+
+#: peepsosharephotos.php:2120
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "当用户更改组头像时，在活动流上发布更新。"
+
+#: peepsosharephotos.php:2127
+msgid "Enable post updates upon groups cover change"
+msgstr "在群组封面更改时启用帖子更新"
+
+#: peepsosharephotos.php:2128
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "当用户更改组封面时，在活动流中发布更新。"
+
+#: templates/photos/modal-photo-item.php:18
+msgid "Options"
+msgstr "选项"
+
+#: templates/photos/modal-photo-item.php:21
+msgid "Set as avatar"
+msgstr "设为头像"
+
+#: templates/photos/modal-photo-item.php:22
+msgid "Set as cover"
+msgstr "设置为封面"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "您确定要删除此相册吗？"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "返回"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:52
+msgid "Add Photos"
+msgstr "添加照片"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:63
+#: templates/photos/photo-group-album-custom.php:126
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:65
+msgid "Save"
+msgstr "保存"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:71
+msgid "Edit title"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:93
+msgid "Album description"
+msgstr "相册描述"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:95
+msgid "Edit description"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:103
+msgid "Description privacy"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:122
+msgid "No description"
+msgstr "没有说明"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:129
+msgid "Save description"
+msgstr "保存说明"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:145
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "最新的第一"
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:151
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "最早的"
+
+#: templates/photos/photo-album-custom.php:184
+#: templates/photos/photo-group-album-custom.php:195
+msgid "Write a comment..."
+msgstr "写一个评论..."
+
+#: templates/photos/photo-album-custom.php:196
+#: templates/photos/photo-group-album-custom.php:207
+msgid "Clear"
+msgstr "明确"
+
+#: templates/photos/photo-album-custom.php:197
+#: templates/photos/photo-group-album-custom.php:208
+msgid "Post"
+msgstr "帖子"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "相册名称"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "相册名称不能为空"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "相册隐私"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "将照片上传到相册"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "请至少选择一张要上传的照片"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "创建相册"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "照片隐私权从相册继承"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "上传图片"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "将照片新增至相册"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+#, php-format
+msgid "%s Album"
+msgstr "%s相册"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "返回照片"
+
+#: templates/photos/photo-comment.php:12
+#, php-format
+msgid "%s uploaded a photo"
+msgstr "%s上传了一张照片"
+
+#: templates/photos/photo-comment.php:13
+msgid "Uploaded a photo"
+msgstr "上传了一张照片"
+
+#: templates/photos/photo-comment.php:20 templates/photos/photo-item.php:15
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+#, php-format
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s 图片"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "上市"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "内部使用"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "私人的"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "仅限朋友"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "专辑"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "最近添加的照片"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "相册"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr ""
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "点击此处开始上传照片"
+
+#: templates/photos/postbox-photos.php:8
+#, php-format
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "最大照片尺寸：%1$s x %2$spx |档案大小上限：%3$sMB"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "说说这张照片..."
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "没有照片"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "查看全部"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo核心：照片"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "照片上传和相册"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

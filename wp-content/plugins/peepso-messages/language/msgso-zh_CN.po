@@ -1,0 +1,616 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-10-22 16:53+0700\n"
+"PO-Revision-Date: 2020-10-27 01:22\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsomessages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Project-ID: 121989\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: msgso.pot\n"
+"X-Crowdin-File-ID: 5\n"
+"Language: zh_CN\n"
+
+#: classes/chatajax.php:160
+msgid "Error creating conversation"
+msgstr "创建对话时出错"
+
+#: classes/configsectionmessages.php:26
+msgid "Enable \"read\" notifications"
+msgstr "启用“已读”通知"
+
+#: classes/configsectionmessages.php:34 peepsomessages.php:932
+msgid "Allow new messages only from friends"
+msgstr "仅允许来自朋友的新消息"
+
+#: classes/configsectionmessages.php:45
+msgid "Character limit per message"
+msgstr "每封邮件的字符数限制"
+
+#: classes/configsectionmessages.php:51 install/activate.php:126
+#: peepsomessages.php:391 peepsomessages.php:853 peepsomessages.php:874
+#: templates/messages/notification-popover-header.php:1
+msgid "Messages"
+msgstr "消息"
+
+#: classes/configsectionmessages.php:65
+msgid "Enable Chat"
+msgstr "启用聊天"
+
+#: classes/configsectionmessages.php:69
+msgid "Send an extra ajax call every 30 seconds to make sure that messages and chat is synchronized between multiple open browser windows or devices."
+msgstr "每隔30秒发送一个额外的ajax调用，以确保在多个打开的浏览器窗口或设备之间同步消息和聊天。"
+
+#: classes/configsectionmessages.php:72
+msgid "Forced Long Poll"
+msgstr "强制长轮询"
+
+#: classes/configsectionmessages.php:77
+msgid "Disable on selected pages"
+msgstr "在选定页上禁用"
+
+#: classes/configsectionmessages.php:78
+msgid "Show only on selected pages"
+msgstr "仅在选定页上显示"
+
+#: classes/configsectionmessages.php:82
+msgid "Select mode in which chat should or should not appears."
+msgstr "选择聊天应该或不应该出现的模式。"
+
+#: classes/configsectionmessages.php:85
+msgid "Page-restriction mode"
+msgstr "页面限制模式"
+
+#: classes/configsectionmessages.php:89
+msgid "List of pages in which chat windows <strong>should not</strong> appears, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr "聊天窗口<strong>不应该</strong>出现的页面列表，每行一页。<br />示例：<br /><strong>/</strong> (主页)<br /><strong>/个人资料</strong> (个人资料页面)"
+
+#: classes/configsectionmessages.php:92
+msgid "Disable on pages"
+msgstr "在页面上禁用"
+
+#: classes/configsectionmessages.php:96
+msgid "List of pages in which chat windows <strong>should</strong> appears, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr "聊天窗口<strong>应该</strong>出现的页面列表，每行一页。<br />示例：<br /><strong>/</strong> (主页)<br /><strong>/个人资料</strong> (个人资料页面)"
+
+#: classes/configsectionmessages.php:99
+msgid "Enable on pages"
+msgstr "在页面上禁用"
+
+#: classes/configsectionmessages.php:105 peepsomessages.php:215
+msgid "Chat"
+msgstr "聊天"
+
+#: classes/messages.php:38
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: classes/messages.php:39
+msgid "Mark as Read"
+msgstr "标记为已读"
+
+#: classes/messages.php:40
+msgid "Mark as Unread"
+msgstr "标记为未读"
+
+#: classes/messages.php:41 templates/messages/conversation-message.php:35
+msgid "Delete"
+msgstr "删除"
+
+#: classes/messages.php:73
+msgid " other"
+msgid_plural " others"
+msgstr[0] " 其他"
+
+#: classes/messages.php:88
+msgid "and"
+msgstr "和"
+
+#: classes/messages.php:118
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s和%2$s"
+
+#: classes/messages.php:143
+msgid "Number of all messages"
+msgstr ""
+
+#: classes/messages.php:143
+#, php-format
+msgid "<span>%1$d</span>-<span>%2$d</span> of <span class=\"ps-tip ps-tip--inline\" aria-label=\""
+msgstr ""
+
+#: classes/messages.php:238
+#, php-format
+msgid "Message from %s"
+msgstr "来自%s的邮件"
+
+#: classes/messages.php:381 peepsomessages.php:495 peepsomessages.php:496
+#, php-format
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s 和 %d 其他"
+
+#: classes/messages.php:416
+msgid "You: "
+msgstr "您："
+
+#: classes/messagesadmin.php:35
+msgid "New Message Email"
+msgstr "新邮件电子邮件"
+
+#: classes/messagesadmin.php:36
+msgid "This will be sent to a user when a new message is received."
+msgstr "这将在收到新消息时发送给用户。"
+
+#: classes/messagesajax.php:40 classes/messagesajax.php:78
+msgid "Message sent."
+msgstr "消息已发送。"
+
+#: classes/messagesajax.php:68
+msgid "You are not part of this conversation."
+msgstr "您不是此会话的一部分。"
+
+#: classes/messagesajax.php:75
+msgid "Failed to send message."
+msgstr "无法发送邮件。"
+
+#: classes/messagesajax.php:326
+msgid "No notifications."
+msgstr "无通知。"
+
+#: classes/messagesajax.php:384
+msgid "Created a new group conversation"
+msgstr "创建了新的群组对话"
+
+#: classes/messagesajax.php:410
+#, php-format
+msgid "%1$s %2$s added to the conversation"
+msgstr "%1$s %2$s已添加到会话中"
+
+#: classes/messagesajax.php:412
+msgid "person"
+msgid_plural "people"
+msgstr[0] "人"
+
+#: classes/messagesmodel.php:254 classes/messagesmodel.php:377
+msgid "No author set."
+msgstr "没有作者设置。"
+
+#: classes/messagesmodel.php:257 classes/messagesmodel.php:381
+msgid "No participants added."
+msgstr "没有添加参与者。"
+
+#: classes/messagesmodel.php:299 classes/messagesmodel.php:343
+#: classes/messagesmodel.php:519 classes/messagesmodel.php:536
+msgid "You Received a New Message"
+msgstr "您收到了新消息"
+
+#: classes/messagesshortcode.php:29
+msgid "Displays the list of all chats (messages) and handles the single conversation views."
+msgstr "显示所有聊天（消息）的列表并处理单个对话视图。"
+
+#: classes/messagesshortcode.php:33
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: classes/messagesshortcode.php:33
+msgid "User messages"
+msgstr "用户消息"
+
+#: peepsomessages.php:131
+msgid "Unread messages"
+msgstr ""
+
+#: peepsomessages.php:218
+msgid "Messages & Chat"
+msgstr "消息和聊天"
+
+#: peepsomessages.php:345
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s插件需要安装并激活PeepSo插件。"
+
+#: peepsomessages.php:347
+msgid "Get it now!"
+msgstr "立即获取！"
+
+#: peepsomessages.php:390
+msgid "New Messages"
+msgstr "新消息"
+
+#: peepsomessages.php:443
+msgid "Send"
+msgstr "发送"
+
+#: peepsomessages.php:444 peepsomessages.php:499 templates/chat/window.php:30
+#: templates/messages/view-message.php:42
+msgid "Mute conversation"
+msgstr "忽略会话"
+
+#: peepsomessages.php:445 peepsomessages.php:500
+#: templates/messages/view-message.php:42
+msgid "Unmute conversation"
+msgstr "取消忽略会话"
+
+#: peepsomessages.php:447 peepsomessages.php:501
+#: templates/messages/view-message.php:36
+msgid "Send read receipt"
+msgstr "发送阅读回执"
+
+#: peepsomessages.php:448 peepsomessages.php:502 templates/chat/window.php:21
+#: templates/messages/view-message.php:36
+msgid "Don't send read receipt"
+msgstr "不发送读取回执"
+
+#: peepsomessages.php:449
+msgid "Are you sure want to block this user?"
+msgstr "您确定要阻止此用户吗？"
+
+#: peepsomessages.php:461
+msgid "Please select at least one message for bulk action."
+msgstr "请至少选择一条讯息进行批量操作。"
+
+#: peepsomessages.php:462
+msgid "Please select your bulk action."
+msgstr "请选择您的批量操作。"
+
+#: peepsomessages.php:463
+msgid "Are you sure want to delete these messages?"
+msgstr ""
+
+#: peepsomessages.php:494
+#, php-format
+msgid "%s and %s"
+msgstr "%s和%s"
+
+#: peepsomessages.php:497 templates/chat/window.php:26
+msgid "Turn on chat"
+msgstr "打开聊天"
+
+#: peepsomessages.php:498
+msgid "Turn off chat"
+msgstr "关闭聊天"
+
+#: peepsomessages.php:522
+msgctxt "PeepSo Messages"
+msgid "PeepSo Messages"
+msgstr "PeepSo消息"
+
+#: peepsomessages.php:523
+msgctxt "PeepSo Message"
+msgid "PeepSo Message"
+msgstr "PeepSo消息"
+
+#: peepsomessages.php:524 peepsomessages.php:540 peepsomessages.php:541
+msgid "PeepSo Messages"
+msgstr "PeepSo消息"
+
+#: peepsomessages.php:525
+msgid "PeepSo Messages:"
+msgstr "PeepSo消息："
+
+#: peepsomessages.php:526
+msgid "All PeepSo Messages"
+msgstr "所有PeepSo消息"
+
+#: peepsomessages.php:527
+msgid "View PeepSo Message"
+msgstr "查看PeepSo消息"
+
+#: peepsomessages.php:528 peepsomessages.php:529
+msgid "Add New PeepSo Message"
+msgstr "添加新的PeepSo消息"
+
+#: peepsomessages.php:530
+msgid "Edit PeepSo Message"
+msgstr "编辑PeepSo消息"
+
+#: peepsomessages.php:531
+msgid "Update PeepSo Message"
+msgstr "更新PeepSo消息"
+
+#: peepsomessages.php:532
+msgid "Search PeepSo Messages"
+msgstr "搜索PeepSo消息"
+
+#: peepsomessages.php:533 peepsomessages.php:572
+msgid "Not found"
+msgstr "未找到"
+
+#: peepsomessages.php:534 peepsomessages.php:573
+msgid "Not found in Trash"
+msgstr "在垃圾桶中找不到"
+
+#: peepsomessages.php:535 peepsomessages.php:574
+msgid "sent"
+msgstr "发送"
+
+#: peepsomessages.php:536 peepsomessages.php:575
+msgid "message"
+msgstr "信息"
+
+#: peepsomessages.php:561
+msgctxt "PeepSo Messages Inline"
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo消息内联"
+
+#: peepsomessages.php:562
+msgctxt "PeepSo Message Inline"
+msgid "PeepSo Message Inline"
+msgstr "PeepSo消息内联"
+
+#: peepsomessages.php:563 peepsomessages.php:579 peepsomessages.php:580
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo消息内联"
+
+#: peepsomessages.php:564
+msgid "PeepSo Messages Inline:"
+msgstr "PeepSo消息内联："
+
+#: peepsomessages.php:565
+msgid "All PeepSo Messages Inline"
+msgstr "所有PeepSo消息内联"
+
+#: peepsomessages.php:566
+msgid "View PeepSo Message Inline"
+msgstr "查看PeepSo消息内联"
+
+#: peepsomessages.php:567 peepsomessages.php:568
+msgid "Add New PeepSo Message Inline"
+msgstr "添加新的PeepSo消息内联"
+
+#: peepsomessages.php:569
+msgid "Edit PeepSo Message Inline"
+msgstr "编辑PeepSo消息内联"
+
+#: peepsomessages.php:570
+msgid "Update PeepSo Message Inline"
+msgstr "更新PeepSo消息内联"
+
+#: peepsomessages.php:571
+msgid "Search PeepSo Messages Inline"
+msgstr "搜索PeepSo消息内联"
+
+#: peepsomessages.php:614
+msgid "Your message..."
+msgstr "您的消息..."
+
+#: peepsomessages.php:625
+msgid "Text"
+msgstr "文本"
+
+#: peepsomessages.php:764 templates/messages/dialogs.php:61
+msgid "Send Message"
+msgstr "发信息"
+
+#: peepsomessages.php:856
+msgid "Someone sent me a new Message"
+msgstr "有人给我发了一个新消息"
+
+#: peepsomessages.php:915
+msgid "Enable Chat (Messages will still work if you disable Chat)"
+msgstr "启用聊天（如果禁用聊天，消息仍将工作）"
+
+#: peepsomessages.php:922
+msgid "Open minimized chat window for new message"
+msgstr "为新消息打开最小化聊天窗口"
+
+#: peepsomessages.php:941
+msgid "Message and Chat"
+msgstr "消息和聊天"
+
+#: peepsomessages.php:954
+msgid "Messages and Chat"
+msgstr "消息和聊天"
+
+#: peepsomessages.php:1047
+msgid "Start a chat"
+msgstr "开始聊天"
+
+#: templates/chat/send-message.php:7 templates/chat/send-photos.php:11
+msgid "just now"
+msgstr "刚才"
+
+#: templates/chat/sidebar-item.php:5 templates/chat/window.php:8
+msgid "Loading"
+msgstr "加载"
+
+#: templates/chat/sidebar-item.php:8 templates/chat/window.php:14
+msgid "Close"
+msgstr ""
+
+#: templates/chat/sidebar.php:7
+msgid "more"
+msgstr "更多"
+
+#: templates/chat/window-input.php:2
+msgid "Write a message..."
+msgstr ""
+
+#: templates/chat/window.php:11
+msgid "Options"
+msgstr ""
+
+#: templates/chat/window.php:33
+msgid "View full conversation"
+msgstr "查看完整对话"
+
+#: templates/chat/window.php:35 templates/messages/view-message.php:28
+msgid "Block this user"
+msgstr "阻止此用户"
+
+#: templates/chat/window.php:46
+msgid "This conversation is muted. New chat tabs will not pop up and you will not receive notifications."
+msgstr "此对话已静音。新聊天标签页将不会弹出，您将不会收到通知。"
+
+#: templates/chat/window.php:46
+msgid "Unmute"
+msgstr "取消静音"
+
+#: templates/chat/window.php:47
+msgid "You turned off chat for this conversation but you can still send a message."
+msgstr "您已关闭此对话的聊天，但仍可以发送消息。"
+
+#: templates/messages/conversation-notice-chat.php:7
+#: templates/messages/conversation-notice.php:7
+#, php-format
+msgid "%s has left the conversation"
+msgstr "%s已离开对话"
+
+#: templates/messages/conversation-notice-chat.php:11
+#: templates/messages/conversation-notice.php:11
+#, php-format
+msgid "%s created a new group conversation"
+msgstr "%s已建立新的群组对话"
+
+#: templates/messages/dialogs.php:8
+msgid "Write Message"
+msgstr "写消息"
+
+#: templates/messages/dialogs.php:13 templates/messages/dialogs.php:37
+msgid "Recipient"
+msgstr "接受者"
+
+#: templates/messages/dialogs.php:26
+msgid "Recipients"
+msgstr "收件人"
+
+#: templates/messages/dialogs.php:30
+msgid "Select Recipients"
+msgstr "选择收件人"
+
+#: templates/messages/dialogs.php:60 templates/messages/view-message.php:110
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr ""
+
+#: templates/messages/message-list.php:9
+msgid "Search by content, or user"
+msgstr "按内容或用户搜索"
+
+#: templates/messages/message-list.php:10
+msgid "Clear search"
+msgstr ""
+
+#: templates/messages/message-list.php:13
+msgid "Search"
+msgstr ""
+
+#: templates/messages/message-list.php:26
+#: templates/messages/message-list.php:29
+msgid "No messages found."
+msgstr "未找到邮件。"
+
+#: templates/messages/message-list.php:45
+msgid "Apply"
+msgstr "应用"
+
+#: templates/messages/mute.php:2
+msgid "How long do you want to mute this conversation?"
+msgstr "您想要多长时间静音这个对话？"
+
+#: templates/messages/mute.php:7
+msgid "30 seconds"
+msgstr "30秒"
+
+#: templates/messages/mute.php:11
+msgid "an hour"
+msgstr "一小时"
+
+#: templates/messages/mute.php:15
+msgid "a day"
+msgstr "一天"
+
+#: templates/messages/mute.php:19
+msgid "a week"
+msgstr "一周"
+
+#: templates/messages/mute.php:23
+msgid "until I unmute it"
+msgstr "直到我取消静音"
+
+#: templates/messages/mute.php:27
+msgid "Mute"
+msgstr "静音"
+
+#: templates/messages/notification-popover-header.php:6
+msgid "New Message"
+msgstr ""
+
+#: templates/messages/notification-popover-item.php:28
+#, php-format
+msgid "%s ago"
+msgstr "%s 以前"
+
+#: templates/messages/view-message.php:22
+msgid "Back to Messages"
+msgstr "返回消息"
+
+#: templates/messages/view-message.php:32
+#: templates/messages/view-message.php:58
+msgid "Add People to the conversation"
+msgstr "将人员添加到会话中"
+
+#: templates/messages/view-message.php:47
+msgid "Leave this conversation"
+msgstr "离开此会话"
+
+#: templates/messages/view-message.php:49
+msgid "Are you sure you want to leave this conversation?"
+msgstr "您确定要离开此会话吗？"
+
+#: templates/messages/view-message.php:63
+msgid "Done"
+msgstr "完成"
+
+#: templates/messages/view-message.php:69
+msgid "Conversation with"
+msgstr "与TA的对话："
+
+#: templates/messages/view-message.php:103
+msgid "Press \"Enter\" to send"
+msgstr "按“Enter”发送"
+
+#: templates/messages/view-message.php:107
+msgid "Fetch URL"
+msgstr ""
+
+#: templates/messages/view-message.php:113
+msgid "Post"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Chat"
+msgstr "PeepSo核心：聊天"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Private messages and live chat"
+msgstr "私密信息和实时聊天"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

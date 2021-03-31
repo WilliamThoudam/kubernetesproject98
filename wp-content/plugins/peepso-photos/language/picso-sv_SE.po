@@ -1,0 +1,857 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-10-22 16:54+0700\n"
+"PO-Revision-Date: 2020-10-27 01:23\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsosharephotos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Project-ID: 121989\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: picso.pot\n"
+"X-Crowdin-File-ID: 6\n"
+"Language: sv_SE\n"
+
+#: classes/configsectionphotos.php:27
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "WordPress maximalt tillåtna uppladdningsstorlek är %1$sMB. WordPress inställningar prioriteras över PeepSo. Om du vill tillåta större filuppladdningar, vänligen titta i WordPress och/eller din serverkonfiguration."
+
+#: classes/configsectionphotos.php:30 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Maximal överföringsstorlek i megabyte"
+
+#: classes/configsectionphotos.php:37
+msgid "Set 0 for Unlimited"
+msgstr "Ställ in 0 för obegränsat"
+
+#: classes/configsectionphotos.php:40 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Tillåtet utrymme per användare i megabyte"
+
+#: classes/configsectionphotos.php:45 classes/configsectionphotos.php:62
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Obegränsat"
+
+#: classes/configsectionphotos.php:46 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:47 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:48 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:49 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:56 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Maximalt antal bilder per användare"
+
+#: classes/configsectionphotos.php:63 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:64 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:65 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:66 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:73 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Daglig uppladdnings gräns för foto per användare"
+
+#: classes/configsectionphotos.php:78 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Använd Original"
+
+#: classes/configsectionphotos.php:79 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Ny storlek"
+
+#: classes/configsectionphotos.php:86 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Fotots Uppladdnings beteende"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Bildens maximala bredd"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Bildens maximala höjd"
+
+#: classes/configsectionphotos.php:113 classes/configsectionphotos.php:131
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "rekommenderad"
+
+#: classes/configsectionphotos.php:119 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Bildkvalitet"
+
+#: classes/configsectionphotos.php:137 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Miniatyrbildens kvalitet"
+
+#: classes/configsectionphotos.php:143
+msgid "General"
+msgstr "Allmänt"
+
+#: classes/configsectionphotos.php:151 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Aktivera AWS S3 lagring"
+
+#: classes/configsectionphotos.php:155 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Den tillträdesnyckel-ID som du fick när du registrerade dig för AWS (20 tecken)"
+
+#: classes/configsectionphotos.php:157 classes/photosadmin.php:200
+msgid "Amazon Access Key ID is required"
+msgstr "Amazons tillgångsnyckel-ID krävs"
+
+#: classes/configsectionphotos.php:161 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "Amazons tillgång till nyckel-ID"
+
+#: classes/configsectionphotos.php:166 classes/photosadmin.php:215
+msgid "Amazon Secret Access Key is required"
+msgstr "Amazons hemliga tillträdenyckel krävs"
+
+#: classes/configsectionphotos.php:169 classes/photosadmin.php:209
+msgid "Amazon Secret Access Key"
+msgstr "Amazons hemliga tillträdenyckel"
+
+#: classes/configsectionphotos.php:173 classes/photosadmin.php:225
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Namnet på Bucket för att ladda upp dina bilder till på Amazon S3"
+
+#: classes/configsectionphotos.php:175 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket is required"
+msgstr "Amazon S3 Bucket krävs"
+
+#: classes/configsectionphotos.php:178 classes/photosadmin.php:224
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:183
+msgid "Asia Pacific (Mumbai)"
+msgstr "Stilla havet (Mumbai)"
+
+#: classes/configsectionphotos.php:184
+msgid "Asia Pacific (Seoul)"
+msgstr "Stilla havet (Seoul)"
+
+#: classes/configsectionphotos.php:185
+msgid "Asia Pacific (Singapore)"
+msgstr "Stilla havet (Singapore)"
+
+#: classes/configsectionphotos.php:186
+msgid "Asia Pacific (Sydney)"
+msgstr "Stilla havet (Sydney)"
+
+#: classes/configsectionphotos.php:187
+msgid "Asia Pacific (Tokyo)"
+msgstr "Stilla havet (Tokyo)"
+
+#: classes/configsectionphotos.php:188
+msgid "Canada (Central)"
+msgstr "Kanada"
+
+#: classes/configsectionphotos.php:189
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+#: classes/configsectionphotos.php:190
+msgid "EU (Ireland)"
+msgstr "EU (Irland)"
+
+#: classes/configsectionphotos.php:191
+msgid "EU (London)"
+msgstr "EU (London)"
+
+#: classes/configsectionphotos.php:192
+msgid "EU (Paris)"
+msgstr "EU (Paris)"
+
+#: classes/configsectionphotos.php:193
+msgid "South America (São Paulo)"
+msgstr "Sydamerika (Sa<unk> o Paulo)"
+
+#: classes/configsectionphotos.php:194
+msgid "US East (N. Virginia)"
+msgstr "USA Öst (N. Virginia)"
+
+#: classes/configsectionphotos.php:195
+msgid "US East (Ohio)"
+msgstr "USA öst (Ohio)"
+
+#: classes/configsectionphotos.php:196
+msgid "US West (N. California)"
+msgstr "USA Väst (N. Kalifornien)"
+
+#: classes/configsectionphotos.php:197
+msgid "US West (Oregon)"
+msgstr "USA Väst (Oregon)"
+
+#: classes/configsectionphotos.php:203
+msgid "Bucket location"
+msgstr "Hink plats"
+
+#: classes/configsectionphotos.php:207
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "Inaktivera AWS S3 kommer att leda till att foton försvinner, eftersom foton inte kommer laddas ned igen."
+
+#: classes/configsectionphotos.php:210
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Behåll inte en lokal kopia av uppladdade filer"
+
+#: classes/configsectionphotos.php:220 classes/photosadmin.php:243
+msgid "AWS Error History:"
+msgstr "AWS felhistoria:"
+
+#: classes/configsectionphotos.php:230 classes/photosadmin.php:258
+#, php-format
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Om du vill aktivera användningen av AWS, \"Aktivera AWS S3 lagring\" till \"JA\" och fyll i fälten för ytterligare inställningar. <br/> För att få din AWS åtkomst-ID och nycklar, kan du registrera dig här: %sFå din AWS tillgång till nycklar%s."
+
+#: classes/configsectionphotos.php:242
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/photosadmin.php:45
+#, php-format
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "Maximal överföringsstorlek för WordPress som är tillåtna är %1$sMB"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Aktivera användning av Amazon AWS för bildlagring"
+
+#: classes/photosadmin.php:210
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "AWS hemliga nyckeln som du fick när du registrerade dig för AWS (40 tecken)"
+
+#: classes/photosadmin.php:254
+msgid "Photos Settings"
+msgstr "Inställningar för bilder"
+
+#: classes/photosadmin.php:257
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Konfigurera användning av PeepSo fotodelning."
+
+#: classes/photosadmin.php:284
+#, php-format
+msgid "Photo of post %s"
+msgstr "Foto av inlägg %s"
+
+#: classes/photosadmin.php:293
+#, php-format
+msgid "Photo %1$d of post %2$s"
+msgstr "Foto %1$d av inlägg %2$s"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Kvoten för maximal filuppladdning har nåtts. Radera inlägg med bilder för att frigöra utrymme"
+
+#: classes/photosajax.php:117
+#, php-format
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Endast filer upp till %1$dMB tillåts"
+
+#: classes/photosajax.php:157
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Bara bilder med högst %1$d pixelbredd är tillåtna, vänligen ändra storlek."
+
+#: classes/photosajax.php:159
+#, php-format
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Bara bilder med högst %1$d pixelhöjd är tillåtna, vänligen ändra storlek."
+
+#: classes/photosajax.php:163
+#, php-format
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Bilden överskrider maximal fotostorlek av %1$d x %2$d."
+
+#: classes/photosajax.php:253
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Maximal daglig fotouppladdnings kvot har nåtts. Radera inlägg med bilder för att frigöra utrymme."
+
+#: classes/photosajax.php:257
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Kvoten för maximal fotouppladdning har nåtts. Radera inlägg med bilder för att frigöra utrymme."
+
+#: classes/photosajax.php:259
+#, php-format
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Endast filer upp till %1$dMB är tillåtna."
+
+#: classes/photosajax.php:261
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Kvoten för maximal filuppladdning har nåtts. Radera inlägg med bilder för att frigöra utrymme."
+
+#: classes/photosajax.php:317
+msgid "You don't have any photos yet"
+msgstr "Du har inga foton än"
+
+#: classes/photosajax.php:317
+#, php-format
+msgid "%s doesn't have any photos yet"
+msgstr "%s har inte några foton än"
+
+#: classes/photosajax.php:441 classes/photosajax.php:494
+#: classes/photosajax.php:544 classes/photosajax.php:614
+#: classes/photosajax.php:662 classes/photosajax.php:737
+#: classes/photosajax.php:765 classes/photosajax.php:816
+#: classes/photosajax.php:848 classes/photosajax.php:933
+msgid "Request could not be verified."
+msgstr "Begäran kunde inte verifieras."
+
+#: classes/photosajax.php:470
+msgid "Your avatar has been changed."
+msgstr "Din avatar har ändrats."
+
+#: classes/photosajax.php:475
+msgid "You are not authorized to use this photo as avatar."
+msgstr "Du har inte behörighet att använda detta foto som avatar."
+
+#: classes/photosajax.php:481 classes/photosajax.php:531
+#: classes/photosajax.php:600 classes/photosajax.php:724
+msgid "Photo not found"
+msgstr "Foto hittades inte"
+
+#: classes/photosajax.php:520
+msgid "Your profile cover has been changed."
+msgstr "Ditt profilomslag har ändrats."
+
+#: classes/photosajax.php:525
+msgid "You are not authorized to use this photo as cover."
+msgstr "Du har inte behörighet att använda detta foto som omslag."
+
+#: classes/photosajax.php:589
+msgid "Album "
+msgstr "Album "
+
+#: classes/photosajax.php:594
+msgid "You are not authorized to create album for this user."
+msgstr "Du har inte behörighet att skapa album för den här användaren."
+
+#: classes/photosajax.php:650 classes/photosajax.php:753
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Temporär fil har raderats"
+msgstr[1] "Temporära filer har raderats"
+
+#: classes/photosajax.php:709
+msgid "New photos added"
+msgstr "Nya bilder har lagts till"
+
+#: classes/photosajax.php:712
+msgid "Activity is not found."
+msgstr "Aktivitet har inte hittats."
+
+#: classes/photosajax.php:718
+msgid "You are not authorized to add photos."
+msgstr "Du har inte behörighet att lägga till foton."
+
+#: classes/photosajax.php:798
+msgid "Photo Album has been deleted."
+msgstr "Fotoalbum har tagits bort."
+
+#: classes/photosajax.php:803 classes/photosajax.php:835
+msgid "You are not authorized to change this album name."
+msgstr "Du har inte behörighet att ändra detta albumnamn."
+
+#: classes/photosajax.php:830
+msgid "Photo Album name saved."
+msgstr "Fotoalbumets namn har sparats."
+
+#: classes/photosajax.php:885
+msgid "Photo Album description saved."
+msgstr "Fotoalbumets beskrivning har sparats."
+
+#: classes/photosajax.php:890
+msgid "You are not authorized to change this album description."
+msgstr "Du har inte behörighet att ändra denna albumbeskrivning."
+
+#: classes/photosajax.php:919
+msgid "Invalid extra field."
+msgstr "Ogiltigt extra fält."
+
+#: classes/photosajax.php:947
+msgid "Photo Album access changed."
+msgstr "Fotoalbumets tillgänglighet har ändrats."
+
+#: classes/photosajax.php:952
+msgid "You are not authorized to change this album access."
+msgstr "Du har inte behörighet att ändra detta albums åtkomst."
+
+#: classes/photosajax.php:992
+msgid "You do not have permission to do that."
+msgstr "Du har inte behörighet att göra detta."
+
+#: classes/photosmodel.php:507
+msgid "Missing Amazon configuration."
+msgstr "Saknad Amazon-konfiguration."
+
+#: classes/photosmodel.php:580
+msgid "There was a problem when uploading the file"
+msgstr "Det gick inte att ladda upp filen"
+
+#: classes/photosmodel.php:603
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Det blev ett fel med inställningen av Amazon S3 bibliotek."
+
+#: classes/photosmodel.php:623
+msgid "There was a problem when deleting the file"
+msgstr "Det gick inte att ta bort filen"
+
+#: classes/photosmodel.php:629
+#, php-format
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Det gick inte att ta bort den filen %1$s. Fel: %2$s"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo gemenskapens foton"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "Senaste bilder"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:384
+msgid "PeepSo Photos"
+msgstr "PeepSo foton"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo Widget för bilder"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "Mina foton"
+
+#: peepsosharephotos.php:269
+msgid "Profile Avatars"
+msgstr "Profil-avatarer"
+
+#: peepsosharephotos.php:273
+msgid "Profile Covers"
+msgstr "Profilens omslag"
+
+#: peepsosharephotos.php:277
+msgid "Stream Photos"
+msgstr "Flödes foton"
+
+#: peepsosharephotos.php:362
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s tillägget kräver att PeepSo tillägget ska vara installerat och aktiverat."
+
+#: peepsosharephotos.php:364
+msgid "Get it now!"
+msgstr "Hämta det nu!"
+
+#: peepsosharephotos.php:381 peepsosharephotos.php:513
+#: peepsosharephotos.php:1311 peepsosharephotos.php:1343
+#: peepsosharephotos.php:1354 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Foton"
+
+#: peepsosharephotos.php:434 peepsosharephotos.php:1383
+msgid "Upload Failed! Please try again."
+msgstr "Uppladdningen misslyckades. Vänligen försök igen."
+
+#: peepsosharephotos.php:459
+msgid "Only "
+msgstr "Endast "
+
+#: peepsosharephotos.php:460 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, and png."
+msgstr "Format som stöds är: gif, jpg, jpeg, tiff och png."
+
+#: peepsosharephotos.php:596
+msgid "Photo"
+msgstr "Foto"
+
+#: peepsosharephotos.php:702
+msgid " uploaded a new avatar"
+msgstr " laddade upp en ny avatar"
+
+#: peepsosharephotos.php:705
+msgid " uploaded a new profile cover"
+msgstr " laddade upp en ny omslagsbild"
+
+#: peepsosharephotos.php:723
+#, php-format
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " lagt till %1$d bild till albumet: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " lagt till %1$d bilder till albumet: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:728
+#, php-format
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] " överförda %1$d foto"
+msgstr[1] " överförda %1$d foton"
+
+#: peepsosharephotos.php:736
+msgid " shared photos"
+msgstr " delade bilder"
+
+#: peepsosharephotos.php:1180
+msgid "album"
+msgstr "album"
+
+#: peepsosharephotos.php:1192 peepsosharephotos.php:1215
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "foto"
+msgstr[1] "foto"
+
+#: peepsosharephotos.php:1200
+msgid "avatar"
+msgstr "avatar"
+
+#: peepsosharephotos.php:1205
+msgid "cover photo"
+msgstr "omslagsbild"
+
+#: peepsosharephotos.php:1586
+msgid "Delete Album"
+msgstr "Ta bort Album"
+
+#: peepsosharephotos.php:1805
+msgid "Upload photos"
+msgstr "Ladda upp bilder"
+
+#: peepsosharephotos.php:2094
+msgid "Enable post updates upon user avatar change"
+msgstr "Aktivera inläggs uppdateringar när användarens avatar ändras"
+
+#: peepsosharephotos.php:2095
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Publicera uppdateringar på Aktivitets flödet när användare ändrar profil avatar."
+
+#: peepsosharephotos.php:2102
+msgid "Enable post updates upon user cover change"
+msgstr "Aktivera inläggsuppdateringar när användarens omslag ändras"
+
+#: peepsosharephotos.php:2103
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Publicera uppdateringar på Aktivitets flödet när användare ändrar profil omslag."
+
+#: peepsosharephotos.php:2119
+msgid "Enable post updates upon groups avatar change"
+msgstr "Aktivera inläggsuppdateringar när gruppers avatar ändras"
+
+#: peepsosharephotos.php:2120
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Publicera uppdateringar på Aktivitets flödet när användare ändrar gruppens avatar."
+
+#: peepsosharephotos.php:2127
+msgid "Enable post updates upon groups cover change"
+msgstr "Aktivera inläggsuppdateringar när gruppens omslag ändras"
+
+#: peepsosharephotos.php:2128
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Publicera uppdateringar på Aktivitets flödet när användare ändrar gruppens omslag."
+
+#: templates/photos/modal-photo-item.php:18
+msgid "Options"
+msgstr "Alternativ"
+
+#: templates/photos/modal-photo-item.php:21
+msgid "Set as avatar"
+msgstr "Ange som avatar"
+
+#: templates/photos/modal-photo-item.php:22
+msgid "Set as cover"
+msgstr "Ställa in som omslag"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr "Ta bort album"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "Är du säker på att du vill ta bort detta album?"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "Tillbaka"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:52
+msgid "Add Photos"
+msgstr "Lägg till bilder"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:63
+#: templates/photos/photo-group-album-custom.php:126
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:65
+msgid "Save"
+msgstr "Spara"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:71
+msgid "Edit title"
+msgstr "Redigera titel"
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:93
+msgid "Album description"
+msgstr "Album Beskrivning"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:95
+msgid "Edit description"
+msgstr "Redigera beskrivning"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:103
+msgid "Description privacy"
+msgstr "Beskrivning sekretess"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:122
+msgid "No description"
+msgstr "Ingen beskrivning"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:129
+msgid "Save description"
+msgstr "Spara Beskrivning"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr "Små miniatyrer"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:145
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr "Stora miniatyrer"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "Den nyaste först"
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:151
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "Den äldsta först"
+
+#: templates/photos/photo-album-custom.php:184
+#: templates/photos/photo-group-album-custom.php:195
+msgid "Write a comment..."
+msgstr "Skriv en kommentar..."
+
+#: templates/photos/photo-album-custom.php:196
+#: templates/photos/photo-group-album-custom.php:207
+msgid "Clear"
+msgstr "Rensa"
+
+#: templates/photos/photo-album-custom.php:197
+#: templates/photos/photo-group-album-custom.php:208
+msgid "Post"
+msgstr "Inlägg"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "Albumnamn"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "Albumets namn kan inte vara tomt"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "Albumsekretess"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "Ladda upp foton till albumet"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "Välj minst ett foto att ladda upp"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "Skapa Album"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "Foto sekretess ärvs från albumet"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "Ladda upp foto"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "Lägga till foton till album"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+#, php-format
+msgid "%s Album"
+msgstr "%s Album"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "Tillbaka till foton"
+
+#: templates/photos/photo-comment.php:12
+#, php-format
+msgid "%s uploaded a photo"
+msgstr "%s laddade upp ett foto"
+
+#: templates/photos/photo-comment.php:13
+msgid "Uploaded a photo"
+msgstr "Laddade upp en bild"
+
+#: templates/photos/photo-comment.php:20 templates/photos/photo-item.php:15
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+#, php-format
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s foto"
+msgstr[1] "%s foton"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Offentlig"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Endast medlemmar"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Privat"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Bara Vänner"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Album"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "Nyligen tillagda foton"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "Fotoalbum"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr ""
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "Klicka här för att börja ladda upp foton"
+
+#: templates/photos/postbox-photos.php:8
+#, php-format
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Max mått på foto: %1$s x %2$spx | Max filstorlek: %3$sMB"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "Säga något om det här fotot..."
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "Inga bilder"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "Visa alla"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo kärna: foton"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Foto uppladdningar och album"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+

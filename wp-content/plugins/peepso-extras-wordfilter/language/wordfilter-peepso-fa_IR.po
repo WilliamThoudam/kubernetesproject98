@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2020-10-22 16:58+0700\n"
+"PO-Revision-Date: 2020-10-27 01:22\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsowordfilter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Project-ID: 121989\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: wordfilter-peepso.pot\n"
+"X-Crowdin-File-ID: 16\n"
+"Language: fa_IR\n"
+
+#: classes/admin/configsectionwordfilter.php:17
+msgid "PHP functions mb_substr and mb_strlen are recommended for accurate text processing, especially for languages with accents (French, Spanish, Polish, Vietnamese etc) or using non-latin script (Russian, Chinese, Japanese etc)."
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:25
+msgid "Enabled"
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:33
+msgid "Keywords cannot be empty and separated by comma."
+msgstr "کلمات کلیدی نباید خالی باشد و با کاما جدا شوند."
+
+#: classes/admin/configsectionwordfilter.php:37
+msgid "Separate words or phrases with a comma."
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:40
+msgid "Keywords to remove"
+msgstr "کلمات کلیدی برای حذف شدن"
+
+#: classes/admin/configsectionwordfilter.php:49
+msgid "Filter posts"
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:56
+msgid "Filter comments"
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:64
+msgid "Filter chat messages"
+msgstr ""
+
+#: classes/admin/configsectionwordfilter.php:78
+msgid "How to render"
+msgstr "نحوه ارائه"
+
+#: classes/admin/configsectionwordfilter.php:91
+msgid "Filter character"
+msgstr "فیلتر کاراکتر"
+
+#: classes/admin/configsectionwordfilter.php:118
+msgid "General"
+msgstr "عمومی"
+
+#: peepsowordfilter.php:211
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعالسازی به افزونه PeepSo نیاز دارد."
+
+#: peepsowordfilter.php:213
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: peepsowordfilter.php:334
+msgid "WordFilter"
+msgstr "فیلتر کلمات"
+
+#: peepsowordfilter.php:337
+msgid "PeepSo - WordFilter"
+msgstr "پیپ شو - فیلتر کلمات"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Extras: WordFilter"
+msgstr "افزونه های پیپ سو - فیلتر کلمات"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Filter unwanted words"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "پیپ‌سو"
+
